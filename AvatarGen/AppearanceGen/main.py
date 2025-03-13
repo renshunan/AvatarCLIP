@@ -343,7 +343,7 @@ class Runner:
         idx_counter = 0
 
         for iter_i in tqdm(range(res_step)):
-            if iter_i == 10010:
+            if iter_i == 110:
                 break
             if self.use_face_prompt and iter_i % 4 == 0:
                 eye, theta, phi, is_front = random_eye(is_front=1, distance=0.4, theta_std=np.pi/12)
