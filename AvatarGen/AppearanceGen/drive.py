@@ -385,9 +385,9 @@ if __name__ == '__main__':
         #'excited',
         #'kicking_soccer',
         #'praying',
-        'raising_both_arms',
+        #'raising_both_arms',
         #'running',
-        #'shoot_basketball'
+        'shoot_basketball'
     ]
     
     #motion_names = ['sitting']
